@@ -12,10 +12,12 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Homepage',
-        style: TextStyle(
-          fontSize: 30,
-        ),),
+        child: Text(
+          'Homepage',
+          style: TextStyle(
+            fontSize: 30,
+          ),
+        ),
       ),
     );
   }
